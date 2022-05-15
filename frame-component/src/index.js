@@ -22,8 +22,9 @@ class LayoutFrame extends HTMLElement {
                 gap: 1rem;
                 font-family: arial;
             }
-            .header {s
+            .header {
                 grid-row: 1;
+                grid-column: 1 / -1;
             }
             .left-side {
                 grid-row: 2;
@@ -46,7 +47,7 @@ class LayoutFrame extends HTMLElement {
                 <slot name="left-side"></slot>
             </aside>
             <main class="dynamic-content">
-                <slot name="dynamic-content"></slot>
+                <slot></slot>
             </main>
         </section>
     `;
