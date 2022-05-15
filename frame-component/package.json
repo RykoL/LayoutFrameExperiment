@@ -1,0 +1,19 @@
+{
+  "name": "frame-component",
+  "version": "1.0.0",
+  "description": "Lightweight web component to act as a layouting component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RykoL/LayoutFrameExperiment.git"
+  },
+  "author": "Rico Lang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RykoL/LayoutFrameExperiment/issues"
+  },
+  "homepage": "https://github.com/RykoL/LayoutFrameExperiment#readme"
+}

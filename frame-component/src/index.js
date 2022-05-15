@@ -15,11 +15,12 @@ class LayoutFrame extends HTMLElement {
             }
             .container {
                 display: grid;
-                grid-template-rows: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
                 grid-template-columns: 0.5fr 2fr;
                 border: var(--border);
                 padding: var(--inner-padding);
                 gap: 1rem;
+                font-family: arial;
             }
             .header {s
                 grid-row: 1;
